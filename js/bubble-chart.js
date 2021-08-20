@@ -10,8 +10,6 @@ const margin = {top: 40, right: 0, bottom: 60, left: 40},
 
 const createBubbleChart = function(data) {   
 
-   console.log(data);
-
    bubbleChart = d3.select("#bubble-chart")
       .append('svg')
       .attr('viewbox', [0, 0, width, height])
